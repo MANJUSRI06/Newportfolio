@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 1rem;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .name {
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        #home {
+            height: 100vh;
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        h1, h2 {
+            margin: 0;
+        }
+
+        .social-links {
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            margin-right: 10px;
+        }
+
+        .social-links img {
+            width: 30px;
+        }
+
+        /* General section styling */
+        section {
+            padding: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="name">Manjusri Shanmugakumar</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Hello!<br>I'm Manjusri Shanmugakumar</h1>
+        <h2>B.Tech Information Technology</h2>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/manjusri-shanmuga-kumar-9a761b28a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                <img src="link logo.png" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/MANJUSRI06" target="_blank">
+                <img src="github icon.png" alt="GitHub">
+            </a>
+        </div>
+        <p class="email"><span>manjusri6526@gmail.com</span></p>
+    </section>
+    
+    <style>
+        #home {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding-left: 50px;
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            color: black;
+        }
+    
+        #home h1 {
+            font-size: 3rem; /* Increase font size for the main heading */
+        }
+    
+        #home h2 {
+            font-size: 2rem; /* Increase font size for the subheading */
+        }
+    
+        .email {
+            margin-top: 20px;
+            font-size: 1.5rem; /* Increase font size for email */
+        }
+    
+        .email span {
+            color: black; /* Ensure the email text is black */
+        }
+    
+        .social-links {
+            margin-top: 20px;
+        }
+    
+        .social-links a {
+            margin-right: 10px;
+        }
+    
+        .social-links img {
+            width: 30px;
+        }
+    </style>
+    
+
+    <!-- About Section -->
+    <section id="about">
+    <div class="about-container">
+        <img src="IMG_20240712_133717.jpg" alt="Profile Picture" class="profile-pic">
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>I am Manjusri, a second-year B.Tech student in Information Technology at the Knowledge Institute of Technology, Salem. I have a strong passion for learning new technologies, with a particular focus on web development. Designing web pages that are both creative and functional excites me, and I strive to create unique, user-friendly experiences that stand out.<br>
+
+                My technical expertise centers around HTML, CSS, and JavaScript, and I am continuously improving my skills in these areas. I also enjoy experimenting with responsive design and ensuring that my projects are accessible to all users. Web development provides me with the perfect blend of creativity and problem-solving, <br>and I take pride in developing solutions that are not only visually appealing but also efficient.
+                
+                In addition to my academic work, I have participated in several national-level technical symposiums, earning recognition for paper and poster presentations. These experiences have further fueled my passion for technology and helped me grow both personally and professionally.<br>
+                
+                As I continue my journey in the field of IT, my goal is to secure a placement in a company where I can apply my skills, learn new technologies, and contribute to meaningful projects. I am eager to embrace new challenges and am confident in my potential to excel in the ever-evolving world of web development.</p>
+                
+        </div>
+    </div>
+   </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>I possess strong skills in programming languages and design principles, focusing on creating efficient and visually engaging web applications. My expertise spans HTML, CSS, JavaScript, Python, and C++, alongside creative thinking and design. I’m committed to delivering user-friendly and accessible solutions that stand out. Below is a snapshot of my key skills, each representing my proficiency and dedication to continuous learning in technology and design.</p>
+        
+        <!-- Skill Bars with Logos -->
+        <div class="skill">
+            <img src="html.jpg" alt="HTML Logo" class="skill-logo">
+            <label for="html">HTML</label>
+            <div class="progress-bar">
+                <div class="progress html">80%</div>
+            </div>
+        </div>
+        
+        <div class="skill">
+            <img src="css logo.jpg" alt="CSS Logo" class="skill-logo">
+            <label for="css">CSS</label>
+            <div class="progress-bar">
+                <div class="progress css">70%</div>
+            </div>
+        </div>
+        
+        <div class="skill">
+            <img src="js logo.jpg" alt="JavaScript Logo" class="skill-logo">
+            <label for="js">JavaScript</label>
+            <div class="progress-bar">
+                <div class="progress js">45%</div>
+            </div>
+        </div>
+        
+        <div class="skill">
+            <img src="py logo.jpg" alt="Python Logo" class="skill-logo">
+            <label for="python">Python</label>
+            <div class="progress-bar">
+                <div class="progress python">64%</div>
+            </div>
+        </div>
+        
+        <div class="skill">
+            <img src="c++ logo.jpg" alt="C++ Logo" class="skill-logo">
+            <label for="cpp">C++</label>
+            <div class="progress-bar">
+                <div class="progress cpp">70%</div>
+            </div>
+        </div>
+        
+        <div class="skill">
+            <img src="creative-thinking-logo.jpg" alt="Creative Thinking Logo" class="skill-logo">
+            <label for="creative">Creative Thinking & Design</label>
+            <div class="progress-bar">
+                <div class="progress creative">78%</div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="experience">
+        <h1 class="experience-title">Experience</h1>
+        <div class="experience-container">
+            <!-- Internship Details Column -->
+            <div class="column internship">
+                <h2>Internship Experience</h2>
+                <ul>
+                    <li>
+                        <h3>InternPe - Web Developer</h3>
+                        <p>Enhanced proficiency in HTML , CSS and JavaScript by developing responsive and user-friendly web pages.</p>
+                    </li>
+                    <li>
+                        <h3>Prodigy Infotech - Web Developer</h3>
+                        <p>Developed and optimized web pages, focusing on responsive design and user experience improvements.</p>
+                    </li>
+                    <li>
+                        <h3>Codsoft - Web Developer</h3>
+                        <p>Gained insights into the web development lifecycle, from planning and coding to testing webpages</p>
+                    </li>
+                    <li>
+                        <h3>Code Alpha - Frontend Developer</h3>
+                        <p>Improved Knowledge in Front-end frameworks and best coding practices through hands-on projects.
+                        </p>
+                    </li>
+                    <!-- Add more internship items as needed -->
+                </ul>
+            </div>
+    
+            <!-- Certificates Column -->
+            <div class="column certificates">
+                <h2>Achievements & Certifications</h2>
+                
+                <!-- Hidden certificates gallery -->
+                <div id="certificates-gallery" class="certificates-gallery">
+                    <img src="IMG_20241105_160543.jpg" alt="Certificate 2">
+                    <img src="IMG_20241105_160610.jpg" alt="Certificate 3">
+                    <img src="IMG_20241105_160622.jpg" alt="Certificate 4">
+                    <img src="IMG_20241105_160634.jpg" alt="Certificate 5">
+                    <img src="IMG_20241105_160647.jpg" alt="Certificate 6">
+                    <img src="IMG_20241105_160701.jpg" alt="Certificate 7">
+                    <!-- Add more certificates as needed -->
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <h1 class="projects-title">Projects</h1>
+        <div class="projects-container">
+            <!-- Project Item -->
+            <div class="project">
+                <h2>Rain Alert Notification</h2>
+                <p class="project-type">Type: Hardware</p>
+                <img src="IMG_20241105_172919.jpg" alt="Project 1" class="project-image">
+                <p class="project-description">Our team of three developed a project called Rain Alert Notification. This system uses a raindrop sensor to detect rainfall and sends an automated email notification to a designated email address connected via Wi-Fi. The alert is triggered instantly upon rainfall detection, making it a proactive solution for rain monitoring and alerting.</p>
+            </div>
+            
+            <!-- Add more project items as needed -->
+            <div class="project">
+                <h2>Frontend Pet e-commerce page</h2>
+                <p class="project-type">Type: Software</p>
+                <p class="project-description">"Pet Paws" is a front-end shopping page designed for pet care products, offering a user-friendly interface where pet owners can browse a range of products tailored for their pets. From food and grooming items to accessories and toys,
+                     the page provides organized categories and detailed product descriptions, creating an engaging shopping experience. Though purely a
+                      front-end development, "Pet Paws" showcases essential e-commerce functionalities like product displays, search options, and 
+                      filtering. Users can explore product details and simulate adding items to a cart, although actual purchasing functionality is not
+                       included in this version.
+                </p>
+                <a href="https://github.com/MANJUSRI06/Frontend_petpage" target="_blank" class="github-link">View on GitHub</a>
+            </div>
+    
+            <!-- Continue adding projects here -->
+        </div>
+    </section>
+    
+<!-- Contact Me Section -->
+<section id="contact">
+    <h1 class="contact-title">Contact Me</h1>
+    <p class="contact-description">Feel free to share your thoughts or reach out with any questions.<br><b>Let,s Create a strong Network around us!!</b></p>
+    <div class="contact-container">
+        <form action="mailto:manjusri6526@gmail.com" method="post" enctype="text/plain">
+            <!-- Email Input -->
+            <div class="form-group">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <!-- Thoughts Input -->
+            <div class="form-group">
+                <label for="thoughts">Your Thoughts:</label>
+                <textarea id="thoughts" name="thoughts" rows="4" placeholder="Share your thoughts here" required></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
